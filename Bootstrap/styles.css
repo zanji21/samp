@@ -1,0 +1,95 @@
+body {
+    background-color:rgb(252, 200, 216) ;
+}
+p{
+    color:rgb(112, 52, 17)
+    
+}
+.container{
+    display:flex ;
+   justify-content: center;
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.box{
+    
+    text-align: center;
+    background-color: rgb(235, 65, 144);
+    padding: 70px;
+    border-style: solid;
+    border-color:rgb(250, 14, 104);
+    border-radius: 10px;
+    border-width: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.box2{
+    
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: rgb(252, 200, 216);
+    padding: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(160, 5, 38);
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box3{
+    
+    text-align: center;
+    color: rgb(231, 25, 163);
+    font-family:'century gothic';
+    
+}
+.box4{
+    text-align: center;
+    width: 20%;
+    background-color: rgb(252, 200, 216);
+    padding: 50px;
+    border-width: 20px;
+
+}
+
+.box6{
+    text-align: center;
+    background-color: rgb(235, 65, 144);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+li{
+    color: rgb(241, 240, 240);
+    float: left;
+    font-family: 'century gothic';
+    font-weight: bold;
+}
+li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(235, 65, 144);
+}
+ul{
+    background-color: rgb(250, 14, 104);
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 100px;
+    list-style-type: none;
+    overflow: hidden;
+}
+@font-face {
+    font-family: 'mrg';
+    src: url(fonts/Autumn\ in\ November.ttf);
+}
